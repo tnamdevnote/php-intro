@@ -17,6 +17,9 @@
 // var_dump($GLOBALS);
 // var_dump($_GET);
 // var_dump($_REQUEST);
+const AGE = 10;
+echo AGE;
+// echo AGE; // logs 10.
 ?>
 <!DOCTYPE html>
 <html lang="en">
