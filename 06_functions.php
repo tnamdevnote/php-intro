@@ -17,8 +17,8 @@
   // Scope in Function
 
   // function registerUser() {
-  // $x = 10; // function scope variable
-  // echo 'User registerd';
+  //   $x = 10; // function scope variable
+  //   echo 'User registerd';
 
   // }
 
