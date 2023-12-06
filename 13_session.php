@@ -6,17 +6,17 @@
    */
   // Whenever we use session values, we have to have session started
   session_start();
-   if(isset($_POST['submit'])) {
+  if(isset($_POST['submit'])) {
     $username = filter_input(INPUT_POST, 'username', FILTER_SANITIZE_SPECIAL_CHARS);
     $password = $_POST['password']; // we don't want to sanitize password.
 
 
-     if($username === 'Luke' && $password === 'secret' ) {
+    if($username === 'Luke' && $password === 'secret' ) {
       $_SESSION['username'] = $username;
       header('Location: /php-intro/extras/dashboard.php');
-     } else {
+    } else {
       echo 'Incorrect Login';
-     }
+    }
   }
   ?>
 
