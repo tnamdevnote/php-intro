@@ -1,5 +1,6 @@
 # php-intro
-PHP Crash Course - Learn the basic syntax of PHP
+Objective: Learn the basic syntax of PHP
+- [PHP Crash Course by Traversy Media](https://www.youtube.com/watch?v=BUCiSSyIGGU&t=10225s)
 
 ### Topics Covered
 
